@@ -1,0 +1,21 @@
+.services {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.services .items-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+
+.items-container .item {
+  margin: 20px;
+  padding: 10px;
+  background-color: #e6e6e6;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}

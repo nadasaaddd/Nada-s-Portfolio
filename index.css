@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url(./styles/nav.css);
+@import url(./styles/header.css);
+@import url(./styles/services.css);
+@import url(./styles/Aboutme.css);
+@import url(./styles/projects.css);
+@import url(./styles/contact-me.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Livvic", sans-serif;
+  zoom: 97%;
+}
+body {
+  display: block;
+  text-align: center;
+}
+
+.section-h1 {
+  display: inline-block;
+  border-bottom: 5px solid #a97c51;
+  margin: 1.5rem;
+  padding-bottom: 5px;
+  font-size: 3rem;
+}
+
+button:hover {
+  background-color: #a97c51;
+}
+button {
+  transition: background 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #8e5620;
+  color: white;
+  border: none;
+}

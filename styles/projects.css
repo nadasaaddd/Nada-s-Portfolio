@@ -1,0 +1,25 @@
+.my-projects {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.projects-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+
+.project-box {
+  margin: 20px;
+  padding: 10px;
+  background-color: #e6e6e6;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.project-box button {
+  padding: 10px;
+  font-size: 1rem;
+}
