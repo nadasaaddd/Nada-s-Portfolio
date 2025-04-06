@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nada Saad</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
     <nav>
       <ul>
-        <li class="ni"><a href="">Home</a></li>
-        <li class="ni"><a href="">My Services</a></li>
-        <li class="ni"><a href="">About Me</a></li>
-        <li class="ni"><a href="">My Projects</a></li>
-        <li class="ni"><a href="">Contact Me</a></li>
+        <li class="ni"><a href="#Home">Home</a></li>
+        <li class="ni"><a href="#service">My Services</a></li>
+        <li class="ni"><a href="#aboutMe">About Me</a></li>
+        <li class="ni"><a href="#Pro">My Projects</a></li>
+        <li class="ni"><a href="#Contact">Contact Me</a></li>
       </ul>
       <a href="mailto:your-email@example.com">
         <button class="email-btn">
@@ -21,20 +21,20 @@
         </button>
       </a>
     </nav>
-    <header>
+    <header id="Home">
       <img src="Assets/MyPhoto.jpeg" alt="Nada's Photo" />
       <h1 class="r1">Hello, I'm Nada</h1>
       <h1 class="r2">Frontend Developer</h1>
       <div class="H-logo">
-        <a href="https://www.linkedin.com/in/nada-saad-dd/"
+        <a href="https://www.linkedin.com/in/nada-saad-dd/" target="_blank"
           ><i class="fab fa-linkedin"></i
         ></a>
-        <a href="https://github.com/nadasaaddd"
+        <a href="https://github.com/nadasaaddd" target="_blank"
           ><i class="fab fa-github"></i
         ></a>
       </div>
     </header>
-    <div class="services">
+    <div class="services" id="service">
       <h1 class="section-h1">My Services</h1>
       <div class="items-container">
         <div class="item">
@@ -44,7 +44,10 @@
             class="s-icon"
           />
           <h3>Website Development</h3>
-          <p>Using HTML, CSS, JavaScript, and Bootstrap, I build clean, fast, and accessible websites tailored to your needs</p>
+          <p>
+            Using HTML, CSS, JavaScript, and Bootstrap, I build clean, fast, and
+            accessible websites tailored to your needs
+          </p>
         </div>
         <div class="item">
           <img
@@ -53,7 +56,11 @@
             class="s-icon"
           />
           <h3>Responsive Desingns</h3>
-          <p>I create websites that look great and function flawlessly on all devices. From mobile to desktop, I ensure your users enjoy a seamless experience.</p>
+          <p>
+            I create websites that look great and function flawlessly on all
+            devices. From mobile to desktop, I ensure your users enjoy a
+            seamless experience.
+          </p>
         </div>
         <div class="item">
           <img
@@ -62,12 +69,15 @@
             class="s-icon"
           />
           <h3>UI/UX Implementation</h3>
-          <p>I bring design mockups to life with pixel-perfect precision, focusing on user-friendly layouts.</p>
+          <p>
+            I bring design mockups to life with pixel-perfect precision,
+            focusing on user-friendly layouts.
+          </p>
         </div>
       </div>
     </div>
-    <div class="about-me">
-      <h1 class="section-h1">About Me</h1>
+    <div class="about-me" id="aboutMe">
+      <h1 class="section-h1 dark">About Me</h1>
       <p>
         I'm a <b>front-end developer </b> with a passion for crafting clean,
         user-focused interfaces that bring ideas to life on the web. I thrive at
@@ -77,12 +87,11 @@
         build better digital experiences. Outside of coding, you'll probably
         find me exploring new tech trends, perfecting my coffee brew, or
         probably playing sports where I get inspired by
-        <b>strategy, teamwork, and a competitive spirit</b>. <br />
-        <br />
-        <b>Let’s build something great together!</b>
+        <b>strategy, teamwork, and a competitive spirit</b>. <br /><br />
+        <b class="action">Let’s build something great together!</b>
       </p>
     </div>
-    <div class="my-projects">
+    <div class="my-projects" id="Pro">
       <h1 class="section-h1">My Projects</h1>
       <div class="projects-container">
         <div class="project-box">
@@ -107,13 +116,13 @@
         </div>
       </div>
     </div>
-    <div class="contact-me">
+    <div class="contact-me dark" id="Contact">
       <h1 class="section-h1">Contact Me</h1>
       <div class="contact-links">
-        <a href="https://github.com/yourgithub" target="_blank">
+        <a href="https://github.com/nadasaaddd" target="_blank">
           <i class="fab fa-github"></i> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">
+        <a href="https://www.linkedin.com/in/nada-saad-dd/" target="_blank">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
         <a href="mailto:your-email@example.com">

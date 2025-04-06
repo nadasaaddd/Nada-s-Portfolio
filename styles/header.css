@@ -35,13 +35,22 @@ header .r2 {
 .H-logo {
   grid-column-start: 2;
   grid-column-end: 4;
+  margin-bottom: 20px;
 }
-
+.H-logo a {
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s;
+  font-size: 60px;
+  padding: 1rem;
+}
 .H-logo i {
   width: 60px;
   height: 60px;
-  font-size: 60px;
-  padding: 0.5rem;
-  color: #fff;
 }
 
+.H-logo a:hover {
+  color: #8e5620;
+}
