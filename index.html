@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nada Saad</title>
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.svg">
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
     <nav>
-      <ul>
+      <ul id="navLinks">
         <li class="ni"><a href="#Home">Home</a></li>
         <li class="ni"><a href="#service">My Services</a></li>
         <li class="ni"><a href="#aboutMe">About Me</a></li>
@@ -19,6 +21,10 @@
         <button class="email-btn">
           <i class="fas fa-envelope"></i> &nbsp Get in Touch
         </button>
+        <!-- hamburger menu for mobile screens -->
+        <a class="menu-icon" id="menuToggle"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
       </a>
     </nav>
     <header id="Home">
@@ -87,9 +93,9 @@
         build better digital experiences. Outside of coding, you'll probably
         find me exploring new tech trends, perfecting my coffee brew, or
         probably playing sports where I get inspired by
-        <b>strategy, teamwork, and a competitive spirit</b>. <br /><br />
-        <b class="action">Let’s build something great together!</b>
+        <b>strategy, teamwork, and a competitive spirit</b>.
       </p>
+      <div class="action">Let’s build something great together!</div>
     </div>
     <div class="my-projects" id="Pro">
       <h1 class="section-h1">My Projects</h1>
@@ -152,5 +158,6 @@
       src="https://kit.fontawesome.com/56ae3be63c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="Js/app.js"></script>
   </body>
 </html>

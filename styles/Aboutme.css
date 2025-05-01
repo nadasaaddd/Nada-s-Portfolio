@@ -2,15 +2,19 @@
   background-color: #e9b74c;
   margin: auto;
   padding: 10px;
+  align-items: center;
 }
 
 .about-me p {
-  font-size: 1.3rem;
-  text-align: center;
+  font-size: 1.5rem;
+  /* text-align: justify; */
   margin: 0.5rem 10%;
   line-height: 2.5rem;
 }
-.action{
+.action {
   color: #75471c;
   font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 1.5rem 10%;
 }
