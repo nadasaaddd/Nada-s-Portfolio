@@ -25,6 +25,7 @@
   margin: 0;
   font-family: "Livvic", sans-serif;
   zoom: 97%;
+  scroll-padding-top: 80px; /*based on navbar height*/
   scroll-behavior: smooth;
 }
 body {

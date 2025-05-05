@@ -1,7 +1,7 @@
 // Get references to the hamburger button and the nav menu
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
-const menuLinks = navLinks.querySelectorAll('a');
+const menuLinks = navLinks.querySelectorAll("a");
 
 // When the button is clicked, toggle the "active" class on the menu
 menuToggle.addEventListener("click", () => {
@@ -11,5 +11,11 @@ menuToggle.addEventListener("click", () => {
 menuLinks.forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("active");
+  });
+  // Hide the menu when clicking outside the navList
+  document.addEventListener("click", (e) => {
+    if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+      navLinks.classList.remove("active");
+    }
   });
 });
